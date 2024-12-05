@@ -1,25 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic&display=swap');
-
-
-body{ background-image: url("tile.jpg");
-    background-repeat: repeat-y;
-    background-repeat: repeat-x;
-    font-family: "Carrois Gothic", sans-serif;
-    font-weight: 400;
-    font-style: normal;}
-
-.main{width:300px;margin:0 auto;
-background:#959595ff; padding:15px;}
-img{width:300px;
-}
-p{
-color:#262626;
-background: #959595ff;
-padding:5px;
-font-size: .8em;}
-
-button{margin:5px;
-padding:25px;
-font-size: .8em;
-background:#fdfeee;
-}
+img {width: 700px; border: 10px, rgb(54, 53, 53), solid;}
+body {background-image:url("https://images.unsplash.com/photo-1724134645562-01ae8e0528e9?q=80&w=2704&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");}
+p {color:aliceblue}
+.look {display: flex ; 
+    justify-content:center}
+.text {display: flex ; 
+    justify-content:center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.button {display: flex ; 
+    justify-content:center;}
