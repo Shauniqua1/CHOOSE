@@ -1,9 +1,16 @@
 img {width: 700px; border: 10px, rgb(54, 53, 53), solid;}
 body {background-image:url("https://images.unsplash.com/photo-1724134645562-01ae8e0528e9?q=80&w=2704&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");}
-p {color:aliceblue}
+
 .look {display: flex ; 
     justify-content:center}
-.text {display: flex ; 
-    justify-content:center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.text {font-family: midnight;color:aliceblue; display: flex ; 
+    justify-content:center; font-size: large;}
 .button {display: flex ; 
     justify-content:center;}
+
+    @font-face {
+        font-family: midnight;
+        src: url(MidnightMinutes_DEMO.otf);
+      } 
+
+      /* p {font-family: midnight;color:aliceblue;} */
